@@ -6,3 +6,5 @@
 .section-head{display:block;text-align:center}.section-head h2{display:flex;align-items:center;justify-content:center;gap:12px;margin:0;font-size:36px}.section-head h2 svg{width:31px;height:31px;color:var(--green)}
 .hero{min-height:auto;padding:52px 0 42px;grid-template-columns:minmax(0,680px) 180px;justify-content:start;align-items:start;gap:32px}.hero h1{font-size:clamp(36px,3.8vw,46px);max-width:none;white-space:nowrap}.hero-location{margin-bottom:21px}.role{font-size:18px;margin-bottom:15px}.intro{font-size:14px;max-width:680px}.hero-actions{margin-top:24px}.portrait-wrap{width:180px;height:auto;align-self:start;padding:8px}.portrait{height:auto;aspect-ratio:4/5}
 @media(max-width:700px){.hero{min-height:auto;grid-template-columns:1fr;padding-block:44px;gap:30px;align-items:center}.hero h1{font-size:clamp(34px,9vw,44px);white-space:normal}.portrait-wrap{width:170px;height:auto;align-self:auto}.portrait{height:auto;aspect-ratio:4/5}}
+.projects-section{padding:44px 0 80px}.projects-section .section-head{margin-bottom:26px}
+@media(max-width:700px){.projects-section{padding:38px 0 62px}.projects-section .section-head{margin-bottom:22px}}
